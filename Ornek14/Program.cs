@@ -23,6 +23,7 @@ internal class Program
         _ogr.TranskriptHesapla(_ogr.DersListe);
 
         OgrenciDersSayfasi.DersGetir(_ogr);
+        Console.WriteLine("Yeni kod satırı");
 
         Console.WriteLine("Hello, World!");
     }
