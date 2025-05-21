@@ -24,7 +24,7 @@ internal class Program
 
         OgrenciDersSayfasi.DersGetir(_ogr);
         Console.WriteLine("Yeni kod satırı");
-
+       ///aeiaeiuaieu
         Console.WriteLine("Hello, World!");
     }
 }
