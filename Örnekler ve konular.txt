@@ -1,0 +1,154 @@
+1.Yazdığımız kodların bilgisayar işlemcisi tarafından çalıştırılabilir hale getirilmesini 
+sağlayan yazılım hangisidir?
+a.Namespace
+b.İşlemci
+c.Derleyici
+d.Inheritance
+
+2.Aşağıdaki değişken tanımlarından hangisi doğru bir tanımlamadır?
+a.Ad int
+b.Ad soyad float
+c.string İsim
+d.class Ogrenci
+e.float maaş değeri
+
+3.(Değişkenlerin yaşam alanı)
+static void Main()
+{
+  int maas = 100;
+  ahmet();
+  Console.WriteLine(maas);
+} 
+     
+static void ahmet()
+{
+  int maas = 5000;
+}
+
+Yukarıdaki kod parçası çalıştırıldığında ekrana ne yazar?
+a.Hata verir
+b.100
+c.5000
+d.5100
+e.Boşluk
+
+4.(referans tip değişken, değer tip değişken kavramı nedir?)
+static void Main(){
+  int maaş = 10;
+  int sayi=20;
+  MaaşHesapla(ref maaş);
+  MaaşHesapla(ref sayi);
+  Console.WritelLine(maaş);
+}
+
+static void MaaşHesapla(ref int toplam)
+{
+  toplam = 45;
+}
+
+Yukarıdaki kod bloğu çalıştığında ekrana ne yazar?
+a.10
+b.45
+c.55
+d.Hata verir
+e.10 ve 45
+
+5.Aşağıdakilerden hangisi metot imzasına dahil değildir?
+a.Parametre tipi
+b.Parametre sayısı
+c.Metot adı
+d.Geri dönüş tipi
+
+6.Aynı sınıf içinde aynı ismili metot tanımlayabilmek için aşağıdakilerden hangisini yapmak gerekir?
+a.Geri dönüş tipini değiştirmek
+b.Sınıf tanımalama sırasını değiştirmek
+c.Tam sayı parametre kullanmak
+d.Parametre tipini değiştirmek
+
+7.Bir metot çalıştığından üç tane değişkeni döndürmesi istenirse metot geri dönüş tipi nasıl tanımlanır?
+(Tuple tipinde değişken tanımlamak)
+a.int a,int b, int c Metot(){ return a,b,c}
+b.void Metot(){return a; return b; return c;}
+c.int Metot(){return class(a,b,c)}
+d.(int,int,int)Metot(){return (a,b,c)}
+
+8.Bir metot aynı isimle farklı parametrelerle sınıf içinde yeniden yazıldığında bu işleme ne ad verilir?
+a.Metodu ezmek
+b.Metot override
+c.Metot aşırı yükleme
+d.Eş metot
+
+9.Bir sınıftan başka bir nesne üretilmesi istenmiyorsa sınıf hangi anahtar kelime ile tanımlanır?
+a.public
+b.private
+c.abstract
+d.inheritance
+
+10.Bir sınıftan başka bir sınıf türetilmesi istenmiyorsa sınıf hangi anahtar kelime ile tanımlanır?
+a.abstract
+b.private
+c.partial
+d.sealed
+
+11.Bir sınıfa sadece tanımlandığı proje içinden erişilsin, projeyi referans eden diğer yerlerden sınıfa erişim yapılamasın 
+istiyoruz. Böyle bir sınıf hangi anahtar kelime ile tanımlanır?
+a.internal
+b.public
+c.private
+d.sealed
+
+12.Bir sınıfta yazılan bir metodun türeyen sınıflarda yeniden yazılabilmesi için metot hangi anahtar kelime
+ile işaretlenir?
+a.public
+b.protected
+c.internal
+d.virtual
+
+13.Türeyen sınıflarda ezilebilmesi için virtual anahtar kelimesi ile tanımlanan metodun, türeyen sınıfta
+yeniden yazılması işlemine ne denir?
+a.Metot aşırı yükleme
+b.Metot override
+c.Static metot
+d.public metot
+
+14.Bir metotun parametresinin tipini metodu kullandığım yerde belirlemek istersem nasıl bir parametre
+tanımlamam gerekir?
+a.double ve int
+b.virtual
+c.static
+d.generic
+
+15.İçerisinde property ve metot bildirimleri olan, ancak metot bloğunun tanımlı olmadığı bildirimlere ne denir?
+a.class
+b.değişken
+c.abstract
+d.interface
+
+16.Sınıfların kullanıldığı yerde new ile üretilmesi yerine merkezi bir yerden üretilmesini sağlayan
+tasarım desenine ne denir?
+a.DependencyInjeksion
+b.Factory
+c.Container
+d.Repository Pattern
+
+17.Dependency Injeksion kavramı, kullanıması. tanımlanması
+18.Sınıfların birbirinden türetilmesi, protected internal nedir? Metot override işlemi
+19.Polimorphism kavramı, c# dilinde çok biçimli sınıf kullanımı
+20. Bir nesnenin çok biçimli kullanım örnekleri
+21.Interfaceden sınıf türetmek
+22.Yapıcı metot kavramı, yapıcı metot tanımalam, yapıcı metodun aşırı yüklenmesi
+24.Generic kavramı, generic metot tanımlama, generic sınıf tanımlama
+25.Soyutlama kavramı nedir? c# dilinde nasıl tanımlanır
+26.Extension metot nedir? Nasıl tanımlanır?
+27.Delegate ve Event tanımlamak
+28.EntityFramework kullanımı, entity oluşturmak, context sınıfı oluşturmak,bağlantı cümleciği bildirimi
+29.Entity sınıflarını tablolar ile eşleştirmek, key attribute, foreign key attiribute, 
+30.İlişkili tabloların entity olarak tanımlanması
+31.DTO nesneleri kullanımı
+32.DTO nesnesi entity dönüşümü yapan generic metot, dto entity dönüşü yapan üçüncü parti kütüphaneler automapper...
+
+
+
+
+
+
